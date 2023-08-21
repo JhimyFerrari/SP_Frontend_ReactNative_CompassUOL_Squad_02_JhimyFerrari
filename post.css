@@ -1,0 +1,113 @@
+.post-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+   
+@media (max-width: 768px) {
+    .post-main{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+     
+    .post-section-main{
+        
+         flex-direction: column;
+         align-items: center;
+        
+    }
+    .post-section-main img{
+        width: 100%;
+        border-radius: 0px 0px 20px 20px;
+    }
+    .post-section-main p{
+        width: 50%;
+        flex-direction: column;
+      }
+     
+      .post-section-main p {
+        width: 40%;
+        padding: 10px 10px 10px 10px;
+        font-size: 1.5rem;
+        
+
+      }
+    .post-container, .post-section-content, .post-section-resume{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+ 
+    .post-section-resume p, .post-section-content p{
+        margin: 0;
+        padding-top: 25px;
+        text-align: justify;
+        width: 70%;
+        min-width: 300px;
+         
+         
+    }
+    
+
+    .post-section-content img{
+        width: 75%;
+        max-width: 600px;
+        border-radius: 5px 5px 5px 5px;
+    }
+ 
+      
+
+}
+@media (min-width: 768px) {
+    main{
+        font-size:20px ;
+    }
+   
+ 
+    .post-section-main{
+        display: flex;
+         align-items: center;
+         padding-bottom: 25px;
+    }
+    .post-section-main img{
+        width: 70%;
+        max-width: 1800px;
+        border-radius: 0px 0px 20px 20px;
+    }
+    .post-section-main p{
+         
+        width: 75%;
+        text-align:center;
+        
+      }
+      h1{
+        font-size: 2rem;
+    }
+     
+   
+    
+    .post-container, .post-section-content, .post-section-resume{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+ 
+    .post-section-resume p, .post-section-content p{
+        margin: 0;
+        padding-top: 25px;
+        text-align: justify;
+         
+        width: 50%;
+         
+         
+    }
+    
+
+    .post-section-content img{
+        width: 60%;
+        
+        border-radius: 5px 5px 5px 5px;
+    }
+ 
+
+}
